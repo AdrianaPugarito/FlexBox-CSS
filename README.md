@@ -26,3 +26,7 @@ cross size: A largura ou altura de um flex item, dependendo do que estiver na di
 <img src="img/flex-box.PNG">
 
 Referencia para mais informação: https://www.alura.com.br/artigos/css-guia-do-flexbox
+
+Aprender jogando: https://flexboxfroggy.com/#pt-br
+
+
