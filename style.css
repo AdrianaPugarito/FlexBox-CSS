@@ -1,0 +1,59 @@
+.header{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.titulo {
+  left: 15px;
+  margin: 15px;
+  text-align: start;
+  position: absolute;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  width: 35vw;
+  justify-content: flex-end;
+}
+
+.navbar_items{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.flex__container {
+  display: flex;
+  /*flex-direction: row; para trocar do eixo principal que é na horizontal para o eixo vertical*/
+ /* writing-mode: vertical-lr; para alterar o titulo vertical pode ser rl ou lr*/
+  height: 80vh;
+  flex-wrap: wrap; /*para quebar*/
+  margin: auto;
+  width: 60vh;
+}
+
+.card{
+  width: 10vw;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card p{
+  font-size: 1.2em;
+}
+
+.card-info{
+  background-color: yellow;
+}
+
+.card-promo{
+  background-color: blue;
+}
+
+.card-new{
+  background-color: pink;
+}
